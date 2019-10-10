@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/msc_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_consumer_dept_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_client_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_client_8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_client_8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_feign_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_server_7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_server_7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_eureka_server_7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_hystrix_consumer_board_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_hystrix_provider_dept_8004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_provider_dept_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_ribbon_consumer_dept_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc_zuul_gateway_9800" charset="UTF-8" />
+  </component>
+</project>

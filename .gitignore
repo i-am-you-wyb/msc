@@ -1,0 +1,15 @@
+# Project exclude paths
+/msc_api/target/
+/msc_consumer_dept_9001/target/
+/msc_eureka_client_8001/target/
+/msc_eureka_client_8002/target/
+/msc_eureka_client_8003/target/
+/msc_eureka_feign_9001/target/
+/msc_eureka_server_7001/target/
+/msc_eureka_server_7002/target/
+/msc_eureka_server_7003/target/
+/msc_hystrix_consumer_board_9001/target/
+/msc_hystrix_provider_dept_8004/target/
+/msc_provider_dept_8001/target/
+/msc_ribbon_consumer_dept_9001/target/
+/msc_zuul_gateway_9800/target/

@@ -1,0 +1,23 @@
+server:
+  port: 9800
+spring:
+  application:
+    name: msc-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.7001.com:7001/eureka/,http://eureka.7002.com:7002/eureka/,http://eureka.7003.com:7003/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: msc-zuul-gateway
+info:
+  app.name: offcn-microcloud
+  company.name: www.offcn.com
+  build.artifactId: msc-gateway-9800
+  build.sersion: 1.0
+zuul:
+  ignored-services: microservicecloud-dept
+  prefix: /offcn
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**

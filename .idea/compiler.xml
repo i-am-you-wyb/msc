@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="msc_provider_dept_8001" />
+        <module name="msc_hystrix_consumer_board_9001" />
+        <module name="msc_eureka_client_8003" />
+        <module name="msc_eureka_client_8002" />
+        <module name="msc_eureka_client_8001" />
+        <module name="msc_eureka_server_7003" />
+        <module name="msc_eureka_server_7002" />
+        <module name="msc_eureka_server_7001" />
+        <module name="msc_ribbon_consumer_dept_9001" />
+        <module name="msc_hystrix_provider_dept_8004" />
+        <module name="msc_zuul_gateway_9800" />
+        <module name="msc_api" />
+        <module name="msc_eureka_feign_9001" />
+        <module name="msc_consumer_dept_9001" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

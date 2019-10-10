@@ -1,0 +1,14 @@
+server:
+  port: 9001
+  context-path: /
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka.7001.com:7001/eureka/,http://eureka.7002.com:7002/eureka/,http://eureka.7003.com:7003/eureka/
+info:
+  app.name: offcn-microservicecloud
+  company.name: www.offcn.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
